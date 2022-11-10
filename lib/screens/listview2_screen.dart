@@ -18,8 +18,6 @@ class Listview2Screen extends StatelessWidget {
             'ListView Tipo 2',
             style: TextStyle(fontSize: 24),
           ),
-          elevation: 0,
-          backgroundColor: Colors.indigo,
         ),
         body: ListView.separated(
             itemBuilder: (context, index) => ListTile(
