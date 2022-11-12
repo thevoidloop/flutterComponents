@@ -27,7 +27,6 @@ class Listview2Screen extends StatelessWidget {
                   ),
                   trailing: const Icon(
                     Icons.arrow_forward_ios,
-                    color: Colors.indigo,
                   ),
                   onTap: () {},
                 ),
