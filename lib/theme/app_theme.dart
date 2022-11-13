@@ -18,6 +18,33 @@ class AppTheme {
         shape: MaterialStateProperty.all(const StadiumBorder()),
       ),
     ),
+    inputDecorationTheme: InputDecorationTheme(
+      floatingLabelStyle: TextStyle(
+        color: primaryLigth,
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: primaryLigth),
+        borderRadius: const BorderRadius.only(
+          bottomLeft: Radius.circular(10),
+          topRight: Radius.circular(10),
+        ),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: primaryLigth),
+        borderRadius: const BorderRadius.only(
+          bottomLeft: Radius.circular(10),
+          topRight: Radius.circular(10),
+        ),
+      ),
+      border: const OutlineInputBorder(
+        // borderSide: BorderSide(color: primaryLigth),
+        borderRadius: BorderRadius.only(
+          bottomLeft: Radius.circular(10),
+          topRight: Radius.circular(10),
+        ),
+      ),
+      iconColor: primaryLigth,
+    ),
   );
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
