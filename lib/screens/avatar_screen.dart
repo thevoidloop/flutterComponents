@@ -12,8 +12,8 @@ class AvatarScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(right: 10),
             child: CircleAvatar(
-              child: const Text('SL'),
               backgroundColor: Colors.indigo.shade900,
+              child: const Text('SL'),
             ),
           ),
         ],

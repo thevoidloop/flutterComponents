@@ -44,6 +44,18 @@ class AppRoutes {
       icon: Icons.input_outlined,
       name: 'Text Inpus Screen',
       widget: const InputsScreen(),
+    ),
+    MenuOption(
+      route: 'slider',
+      icon: Icons.slideshow_outlined,
+      name: 'Slider Screen',
+      widget: const SliderScreen(),
+    ),
+    MenuOption(
+      route: 'listView',
+      icon: Icons.build_circle_outlined,
+      name: 'Infinite Scroll View',
+      widget: const ListViewBuilderScreen(),
     )
   ];
 

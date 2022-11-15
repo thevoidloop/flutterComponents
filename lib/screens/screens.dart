@@ -4,5 +4,7 @@ export 'package:fluttercomponents/screens/avatar_screen.dart';
 export 'package:fluttercomponents/screens/card_screen.dart';
 export 'package:fluttercomponents/screens/home_screen.dart';
 export 'package:fluttercomponents/screens/inputs_screen.dart';
+export 'package:fluttercomponents/screens/listview_builder_screen.dart';
 export 'package:fluttercomponents/screens/listview1_screen.dart';
 export 'package:fluttercomponents/screens/listview2_screen.dart';
+export 'package:fluttercomponents/screens/slider_screen.dart';
